@@ -1,0 +1,32 @@
+#gameData {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#minesField {
+    margin: 0 auto;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 2px 2px;
+}
+
+#minesField, #minesField td {
+    border: 3px solid #eee;
+}
+
+#minesField td {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 0;
+    border: 3px solid #eee;
+    background-color: lightgray;
+}
+
+#minesField td.clicked {
+    background-color: white;
+}
+
